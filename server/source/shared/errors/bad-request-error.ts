@@ -1,6 +1,5 @@
+import { HttpStatus } from "../constants";
 import { DomainBaseError } from "./domain-base-error";
-
-import { HttpStatus } from "@/shared/constants";
 
 export class BadRequestError extends DomainBaseError {
     constructor(code: string, message: string) {

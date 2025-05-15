@@ -1,6 +1,5 @@
+import { HttpStatus } from "../constants";
 import { DomainBaseError } from "./domain-base-error";
-
-import { HttpStatus } from "@/shared/constants";
 
 export class NotFoundError extends DomainBaseError {
     constructor(message: string, code: string) {

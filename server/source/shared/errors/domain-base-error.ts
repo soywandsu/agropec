@@ -1,4 +1,4 @@
-import { HttpStatusCode } from "@/shared/constants";
+import { HttpStatusCode } from "../constants";
 
 export class DomainBaseError extends Error {
     public readonly statusCode: HttpStatusCode;
